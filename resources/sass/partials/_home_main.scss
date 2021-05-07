@@ -1,6 +1,8 @@
 main{
+   background-image: url("/images/fondo-pag-speciali.jpg");
    section{
-      margin: 80px 0;
+       padding: 80px 0;
+
       .cards{
          display: flex;
          flex-wrap: wrap;
@@ -17,6 +19,7 @@ main{
       }
       
       h2{
+         font-size: 40px;
          text-transform: uppercase;
          color: $mainTitles;
       }
