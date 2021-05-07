@@ -151,5 +151,9 @@ Route::get('/', function () {
             $cortissima[] = $pasta;
         }
     }
-    return view('home');
+    return view('home',[
+        "pastalunga" => $lunga,
+        "pastacorta" => $corta,
+        "pastacortissima" => $cortissima,
+    ]);
 });
