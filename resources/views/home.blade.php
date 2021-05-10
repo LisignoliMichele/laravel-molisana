@@ -3,19 +3,21 @@
 
 {{-- titolo pagina --}}
 @section('pageTitle')
-    La molisana HOME - Michele
+    La molisana HOME-PAGE - Michele
 @endsection
-
 {{-- contenuto homepage --}}
 @section('content')
 <div class="container">
    <section class="lunghe">
       <h2>le lunghe</h2>
       <div class="cards">
+         {{-- ciclo le paste divise in arrray di paste lunghe cote e corissime --}}
          @foreach ($pastalunga as $pasta)
-            <div class="card">
+         <div class="card">
+            <a href="{{route('product', ['id' => $pasta['id'] ])}}">
                <img src="{{$pasta['src']}}" alt="{{$pasta["titolo"]}}">
-            </div>
+            </a>
+         </div>
          @endforeach
       </div>
    </section>
@@ -24,7 +26,9 @@
       <div class="cards">
          @foreach ($pastacorta as $pasta)
             <div class="card">
-               <img src="{{$pasta['src']}}" alt="{{$pasta["titolo"]}}">
+               <a href="{{route('product', ['id' => $pasta['id'] ])}}">
+                  <img src="{{$pasta['src']}}" alt="{{$pasta["titolo"]}}">
+               </a>
             </div>
          @endforeach
       </div>
@@ -34,7 +38,9 @@
       <div class="cards">
          @foreach ($pastacortissima as $pasta)
             <div class="card">
-               <img src="{{$pasta['src']}}" alt="{{$pasta["titolo"]}}">
+               <a href="{{route('product', ['id' => $pasta['id'] ])}}">
+                  <img src="{{$pasta['src']}}" alt="{{$pasta["titolo"]}}">
+               </a>
             </div>
          @endforeach
       </div>

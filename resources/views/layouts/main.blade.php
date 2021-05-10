@@ -14,8 +14,10 @@
       <title>@yield('pageTitle')</title>
    </head>
    <body>
+      {{-- inclusa la struttura --}}
       @include('partials.header')
       <main> 
+         {{-- aggiunto lo yeld(come placeholder) del contenuto della struttura --}}
          @yield('content')
       </main>
       @include('partials.footer')
