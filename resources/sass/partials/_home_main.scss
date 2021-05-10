@@ -9,11 +9,18 @@
          .card{
             max-width: calc((100%/3) - 20px);
             margin-top: 20px;
+            overflow: hidden;
             &:not(:last-child){
                margin-right:20px
             }
             img{
                width: 100%;
+            }
+            @media screen and (max-width: 768px){
+               max-width: calc((100%/2) - 20px);
+            }
+            @media screen and (max-width: 480px){
+               max-width: calc(100% - 20px);
             }
          }
       }
