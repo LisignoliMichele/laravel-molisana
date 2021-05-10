@@ -95,6 +95,11 @@ footer {
 .homepage section .cards .card:not(:last-child) {
   margin-right: 20px;
 }
+@media screen and (max-width: 480px) {
+  .homepage section .cards .card:not(:last-child) {
+    margin-right: 0px;
+  }
+}
 .homepage section .cards .card img {
   width: 100%;
 }
@@ -113,10 +118,16 @@ footer {
   text-transform: uppercase;
   color: #002d73;
 }
+@media screen and (max-width: 480px) {
+  .homepage section h2 {
+    font-size: 25px;
+  }
+}
 
 .product {
   background-color: #b9dae4;
   padding: 100px 0;
+  position: relative;
 }
 .product h1 {
   text-align: center;
@@ -139,4 +150,24 @@ footer {
 }
 .product img {
   width: 100%;
+}
+.product .arrowRight,
+.product .arrowLeft {
+  position: absolute;
+  color: #555555;
+  font-size: 40px;
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.product .arrowRight:hover,
+.product .arrowLeft:hover {
+  color: #002d73;
+}
+.product .arrowRight {
+  right: 20px;
+}
+.product .arrowLeft {
+  left: 20px;
 }

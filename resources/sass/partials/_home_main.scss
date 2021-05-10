@@ -11,7 +11,10 @@
             margin-top: 20px;
             overflow: hidden;
             &:not(:last-child){
-               margin-right:20px
+               margin-right: 20px;
+               @media screen and (max-width: 480px){
+                  margin-right: 0px;
+               }  
             }
             img{
                width: 100%;
@@ -28,7 +31,10 @@
          font-size: 40px;
          text-transform: uppercase;
          color: $mainFont;
-      }
+         @media screen and (max-width: 480px){
+            font-size: 25px;
+         }
+      }   
    }
  
 }

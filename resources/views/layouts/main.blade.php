@@ -8,7 +8,8 @@
       {{-- google font --}}
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-      {{-- /google font --}}
+      {{-- libreria fontawesome --}}
+      @yield('fontawesome')
       <link rel="stylesheet" href="{{asset('css/app.css')}}">
       {{-- diamo un placeholder anche al titolo: --}}
       <title>@yield('pageTitle')</title>

@@ -1,6 +1,5 @@
 {{-- importo la struttura --}}
 @extends('layouts.main')
-
 {{-- titolo pagina --}}
 @section('pageTitle')
     La molisana HOME-PAGE - Michele
