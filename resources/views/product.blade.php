@@ -12,7 +12,7 @@
     <img src="{{$pasta['src-h']}}">
     <img src="{{$pasta['src-p']}}">
     <div class="container">
-        <p><{{$pasta['descrizione']}}></p>
+        <p>{!!$pasta['descrizione']!!}</p>
     </div> 
 </div>
 @endsection
