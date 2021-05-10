@@ -274,12 +274,12 @@ Route::get('prodotto/{id}', function($id){
         [
             "src" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-m.jpg",
             "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-h.jpg",
-            "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-p.jpg",
+            "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-p-2018.jpg",
             "titolo" => "N.58 Misto corto",
             "tipo" => "corta",
             "cottura" => "9 min",
             "peso" => "500g",
-            "descrizione" => "Incontrare tanti formati di pasta diversi…  in un solo pack è un\'idea assolutamente originale! Ogni singolo formato è stato scelto e abbinato con cura, studiando il giusto equilibrio tra affinità e differenze, per ottenere un prodotto versatile, originale e gustosissimo.<br> Questa è la nostra mission… portare quotidianamente sulla tavola una pasta di Qualità, intesa prima di tutto come impegno di natura etica, fondamento su cui costruiamo il nostro business.<br> Da oltre 100 anni l\'amore per la Qualità si è rinnovato ed è maturato, un sentimento che ci induce a compiere tutto con passione e nel modo migliore, attratti da una formula naturale, semplice quanto incredibile: acqua e semola!"
+            "descrizione" => "Incontrare tanti formati di pasta diversi…  in un solo pack è un'idea assolutamente originale! Ogni singolo formato è stato scelto e abbinato con cura, studiando il giusto equilibrio tra affinità e differenze, per ottenere un prodotto versatile, originale e gustosissimo.<br> Questa è la nostra mission… portare quotidianamente sulla tavola una pasta di Qualità, intesa prima di tutto come impegno di natura etica, fondamento su cui costruiamo il nostro business.<br> Da oltre 100 anni l\'amore per la Qualità si è rinnovato ed è maturato, un sentimento che ci induce a compiere tutto con passione e nel modo migliore, attratti da una formula naturale, semplice quanto incredibile: acqua e semola!"
         ],
         [
             "src" => "https://www.lamolisana.it/wp-content/uploads/2018/06/84-ditale-quadrato-m.jpg",
