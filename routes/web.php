@@ -171,6 +171,11 @@ Route::get('notizie-recenti', function () {
 
 Route::get('prodotto/{id}', function($id){
     $data = config('paste');
+
+    if ($id >= count($data)){
+        abort(404);
+    }
+    
     $pasta = $data[$id];
     $next = ($id == (count($data) - 1)) ? 0 : $id + 1;
     $prev = ($id == 0) ? (count($data) - 1) : $id - 1;
