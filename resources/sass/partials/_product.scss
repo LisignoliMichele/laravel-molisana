@@ -10,12 +10,12 @@
          font-size: 30px;
       }
    }
-   p{
+   .container{
       font-size: 22px;
       color: $mainFont;
       @media screen and (max-width: 480px){
          font-size: 16px;
-       }
+       };
    }
    img{
       width: 100%;
